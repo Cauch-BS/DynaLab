@@ -1,0 +1,21 @@
+@> 602 atoms and 1 coordinate set(s) were parsed in 0.02s.
+Starting child...
+n_rep =  16
+/scratch/midway3/bayhi/Scratch/UpSample/up_output/
+Input generation for 00-Hot...
+Configuring...
+space_trans_file =  rotZ-table
+/beagle3/trsosnic/upside2-md/py/upside_config.py --fasta=/scratch/midway3/bayhi/Scratch/UpSample/up_input/00_1ubq.fasta --output=/scratch/midway3/bayhi/Scratch/UpSample/up_output/00-Hot.0.up --initial-structure=/scratch/midway3/bayhi/Scratch/UpSample/up_input/00_1ubq.initial.npy --rama-library=/beagle3/trsosnic/upside2-md//parameters/common/rama.dat --rama-sheet-mixing-energy=/beagle3/trsosnic/upside2-md//parameters/ff_2.1/sheet --hbond-energy=/beagle3/trsosnic/upside2-md//parameters/ff_2.1/hbond.h5 --reference-state-rama=/beagle3/trsosnic/upside2-md//parameters/common/rama_reference.pkl --rotamer-placement=/beagle3/trsosnic/upside2-md//parameters/ff_2.1/sidechain.h5 --dynamic-rotamer-1body --rotamer-interaction=/beagle3/trsosnic/upside2-md//parameters/ff_2.1/sidechain.h5 --environment-potential=/beagle3/trsosnic/upside2-md//parameters/ff_2.1/environment.h5 --bb-environment-potential=/beagle3/trsosnic/upside2-md//parameters/ff_2.1/bb_env.dat --chain-break-from-file=/scratch/midway3/bayhi/Scratch/UpSample/up_input//00_1ubq.chain_breaks
+
+n_chains: 1
+
+hbond, 72 donors, 75 acceptors in sequence
+
+
+is_solution= True
+is_pulling= False
+is_tension= False
+dis_recenter= False
+dis_z_recenter= True
+Running...
+Done.
